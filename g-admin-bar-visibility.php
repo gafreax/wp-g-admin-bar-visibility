@@ -16,4 +16,4 @@ function  remove_admin_bar() {
     }
 }
 
-add_action('after_theme_setup','remove_admin_bar');
+add_action('after_setup_theme','remove_admin_bar');
